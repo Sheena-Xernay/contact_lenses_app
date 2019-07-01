@@ -1,0 +1,55 @@
+
+
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #ef9a9a;
+
+.login-page {
+  font: 100% $font-stack ;
+
+}
+.container{
+	margin-left:10px;
+}
+.header {
+  	text-align: center;  
+}
+.logo {
+  width: 5%;
+  height: 5%;
+  padding-top: 80px;
+  color: $primary-color;
+}
+.username,
+.password {
+  display: block;
+  width: 300px;
+  margin: 20px auto;
+}
+
+.input-area{
+  text-align: center; 
+}
+.button-area{
+  margin-left:5%;
+}
+
+
+
+
+
+
+h1{
+	color:red;
+}
+p{
+color:$primary-color;	
+}
+
+#borderone{
+	border-style:dashed;
+	border-width: medium;
+}
+#bordertwo{
+	border-style:dashed;
+	border-width: medium;
+}

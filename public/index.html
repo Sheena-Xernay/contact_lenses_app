@@ -1,0 +1,94 @@
+
+<!doctype html>
+<html>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="stylesheet" href="login.css">
+	<script src="index.js"></script>
+
+	  
+
+	<title>Login in Page</title>
+
+	
+  <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+  <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+
+
+</head>
+
+<body class="login-page">
+	<div class="container" >
+		<div class="header">
+			<img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjUxMnB4IiBoZWlnaHQ9IjUxMnB4IiB2aWV3Qm94PSIwIDAgNDk1LjIzMyA0OTUuMjMzIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0OTUuMjMzIDQ5NS4yMzM7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8Zz4KCQk8cGF0aCBkPSJNMzgzLjYxMiwxOC45MzNjLTQuMTY5LDAtOC4zOSwwLjE4OC0xMi41NDMsMC41NjNjLTQyLjg4OSwzLjg4LTgxLjk5NCwyOS45MjUtMTEwLjQ4MSw3My40NzkgICAgYy0zMy4wNDgtNDguNzQzLTg3LjY3NC04MC4wNDItMTQwLjIxOC04MC4wNDJjLTExLjU0NywwLTIyLjk4OCwxLjQ5My0zNCw0LjQ0MWMtMzQuMDMsOS4xMDktNjEuNzc2LDM0LjQ0My03Ni4xMTYsNjkuNTE3ICAgIGMtMTUuODkyLDM4Ljg1Ny0xMy4xNTcsODQuMzczLDcuMTQsMTE4Ljc4NGMyNy44NzUsNDcuMjYzLDc1LjY2Nyw3Ni4xMTEsMTIxLjg3OSwxMDQuMDA0ICAgIGMyMy43MzcsMTQuMzM1LDQ4LjI4NiwyOS4xNDMsNjkuMzQsNDYuMTE4YzYuMjcxLDUuMDQ4LDE0LjE0OSwxMS42MjksMjAuOTA4LDE4Ljc5OWMtOC41MjgsOC40MDQtMjUuMzksMzYuMzM4LTI1LjU1MiwzNi42NzMgICAgYy01LjI5OSwxMS4xNDYtMTIuNTc4LDM0LjcxMy02LjI1MSw1Mi4zNDRjMi43MDQsNy41MjEsNy41NjEsMTIuOTcsMTQuNDUyLDE2LjE5NGMzLjUzNCwxLjY1LDcuMjUzLDIuNDkzLDExLjA0OSwyLjQ5MyAgICBjMTYuMzIxLDAsMzEuNDM4LTE1LjQ2OCw0MS4yNTQtMjguNDM3YzE3Ljk1LTIzLjc0NSwyMC42MzctNDguNjY4LDcuOTc4LTc0LjExM2MyMS43MTgtMTkuNjQ2LDQ1LjM0Ni0zNy45MDcsNjguMjA3LTU1LjU3OSAgICBjMzkuMzI5LTMwLjM5Niw3OS45OTMtNjEuODM0LDExMi4zNTEtMTAxLjM0NmMxNS44MDgtMTkuMzA5LDY0LjY4My04Ny4yMTIsMzAuMTM4LTE1MC40NzMgICAgQzQ2NC44ODQsMzguOTAyLDQyNy42NzMsMTguOTMzLDM4My42MTIsMTguOTMzeiBNMjQyLjI0OCw0MjcuNDU4Yy0zLjI4NSw2LjI3Ni02LjYwMSwxMC44MDctMTAuMDU0LDEzLjcwMSAgICBjMC42OTUtOS4zMjMsNC4yNDgtMTguNDI0LDYuNTMtMjMuNDMxYzAuNjQtMS40MDYsNC44MzctNy44OTYsNy44NTUtMTIuMjM3QzI0Ny41MjcsNDEyLjg3NCwyNDYuMDk3LDQyMC4xMDUsMjQyLjI0OCw0MjcuNDU4eiAgICAgTTIwMi45NSw3Ny45MjZjMTAuMTIzLDguMzQxLDE5LjA3MywxNy43NjMsMjYuNjAxLDI3Ljk4NWMwLjg5NiwxLjIxOSwyLjI3MiwzLjUxNywzLjg3NSw2LjE3NyAgICBjOS4yMzksMTUuMzkyLDE5LjE2NywzMC40MiwyOS45MTQsMzAuNDJjNS4zMzIsMCw5Ljg0Ny0zLjc0OCwxMy40MTYtMTEuMTQ5YzIyLjc5NS00Ny4yMDUsNTkuMTY5LTc1LjM0OSwxMDIuNDE4LTc5LjI1NCAgICBjMi41MTQtMC4yMzEsNS4wNjItMC4zMzgsNy41ODEtMC4zMzhjMzMuMDg5LDAsNjIuMTg2LDE5LjM2OCw3Mi40MTIsNDguMTljMTMuNDcyLDM3Ljk5Ni03Ljg1MSw4My4wMjItNjUuMTg2LDEzNy42NDYgICAgYy0yNC42MTgsMjMuNDYtNTEuOTIzLDQ0LjU1NC03OC4zMjMsNjQuOTU4Yy0yMC43MjMsMTYuMDA2LTQyLjEzMiwzMi41NS02Mi4xNzcsNTAuMTcgICAgYy0xOC4wMjctMTkuOTgxLTQxLjY3Mi0zNi43MTktNjAuNDM4LTQ5LjE3NWMtMTEuMTMzLTcuMzk0LTIzLjE2Ni0xNC42MjUtMzUuOTA0LTIyLjI4MiAgICBjLTYyLjYyNi0zNy42MzgtMTMzLjU5OS04MC4yOTgtMTIyLjQxLTE1OS43M2M2LjM5Ni00NS40MTcsNDAuMi03NC43NjMsODYuMTItNzQuNzYzYzMuMzc0LDAsNi44MjcsMC4xNiwxMC4yNywwLjQ5MiAgICBDMTU2LjM3LDQ5LjY3NSwxODEuODc4LDYwLjU2NCwyMDIuOTUsNzcuOTI2eiIgZmlsbD0iIzAwMDAwMCIvPgoJPC9nPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" class="logo"/>
+			<!-- <div>Icons made by <a href="https://www.freepik.com/?__hstc=57440181.268d9c02f1626e8be600392921a87853.1560364935070.1560364935070.1560364935070.1&__hssc=57440181.1.1560364935071&__hsfp=3690448597" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
+			<h1>login</h1>
+		</div>
+
+		<!-- form -->
+		<form name="login-form" class="input-area" action="/home.html">
+			<section >
+				<div class="mdc-text-field">
+				<input class="mdc-text-field__input" id="username" type="text" required>
+
+
+			    	<div class="mdc-line-ripple"></div>
+			  	<label class="mdc-floating-label">Name</label>
+				</div>
+
+			</br>
+			</br>
+				<div class="mdc-text-field">
+				<input class="mdc-text-field__input" id="password" type="password" required>
+			    	<div class="mdc-line-ripple"></div>
+			  	<label class="mdc-floating-label">Password</label>
+
+				</div>
+
+			</section>
+    		</br>
+
+
+			<section class="button-area">
+					<button class="mdc-button" disabled="ture">待定</button>
+    		<button  class="mdc-button mdc-button--raised mdc-ripple-surface" id="submit" >Next</button>
+
+    		</section>
+		</form>
+
+
+		
+	</div>
+
+
+    <script>
+      const button = document.getElementById('submit');
+      button.addEventListener('click', async event => {
+      	const username = document.getElementById('username').value;
+      	const password = document.getElementById('password').value;
+      	const data = {username,password};
+
+    	const options = {
+			method:'POST',
+			headers:{
+				'Content-Type':'application/json'
+			},
+			body: JSON.stringify(data)
+		};  	
+		const response = await fetch('/api_user',options);
+		const json = await response.json();
+		console.log(json);
+	
+        
+        });
+
+    
+      
+
+        
+</script>
+
+</body>

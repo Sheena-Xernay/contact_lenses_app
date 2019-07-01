@@ -1,0 +1,23 @@
+{
+  "name": "jun12",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js webpack-dev-server"
+  },
+  "author": "sheena",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "material-components-web": "^2.3.1",
+    "nedb": "^1.8.0",
+    "progressbar.js": "^1.0.1",
+    "webpack": "^4.33.0",
+    "webpack-dev-server": "^3.7.1"
+  },
+  "devDependencies": {
+    "@material/button": "^2.3.0"
+  },
+  "description": ""
+}
