@@ -9,7 +9,7 @@
   "author": "sheena",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "material-components-web": "^2.3.1",
     "nedb": "^1.8.0",
     "progressbar.js": "^1.0.1",
